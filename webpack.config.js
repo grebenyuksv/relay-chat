@@ -8,6 +8,7 @@ const config = {
         publicPath: "dist/",
         filename: "bundle.js"
     },
+    devtool: 'source-map',
     module: {
         loaders: [{
             test: /\.js$/,
